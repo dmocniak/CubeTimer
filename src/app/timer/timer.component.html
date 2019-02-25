@@ -1,9 +1,0 @@
-<div class="timer-container">
-  <div id="flex1">
-    <p id="timer">{{ time.secs }}:{{ time.mSecs }}</p>
-    <button id="startBtn" class="btn btn-primary" (click)="startTimer()">{{buttonValue}}</button>
-  </div>
-  <div id="flex2">
-    <app-log [loggedTime]="loggedTime" (logReset)="logReset($event)"></app-log>
-  </div>
-</div>
